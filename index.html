@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Natal Solidário em TI: tecnologia, esperança e solidariedade transformando o Natal de famílias em Manaus. Apoie a campanha de 2026." />
+    <meta name="theme-color" content="#091b17" />
+    <meta property="og:title" content="Natal Solidário em TI | Manaus 2026" />
+    <meta property="og:description" content="Conectando tecnologia, esperança e solidariedade. Doe via PIX e apoie famílias em Manaus." />
+    <meta property="og:image" content="assets/kv-completo.jpg" />
+    <title>Natal Solidário em TI | Manaus 2026 • Conectando Tecnologia e Esperança</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600;1,9..144,700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <div role="status" style="background:#fff3cd;color:#4f3c00;padding:12px;text-align:center;font:14px system-ui">Demonstração local: números ilustrativos, formulários salvos somente neste navegador. Não envie dados pessoais nem faça pagamentos. Nenhuma mensagem será enviada.</div>
+    <a class="skip-link" href="#conteudo">Saltar para o conteúdo principal</a>
+
+    <!-- Background Tech Glow Elements -->
+    <div class="ambient-glow ambient-glow-top" aria-hidden="true"></div>
+    <div class="ambient-glow ambient-glow-mid" aria-hidden="true"></div>
+
+    <!-- Header Navigation -->
+    <header class="site-header" id="inicio">
+      <div class="shell header-inner">
+        <a class="brand brand-header" href="#inicio" aria-label="Natal Solidário em TI, início">
+          <img 
+            src="assets/Natal Solidário em TI Neon 1.png" 
+            alt="Natal Solidário em TI" 
+            class="header-neon-logo"
+            width="220"
+            height="50"
+          />
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu de navegação">
+          <span class="sr-only">Abrir menu</span>
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
+          <a href="#comunidade">A Causa</a>
+          <a href="#impacto">Transparência</a>
+          <a href="#calculadora">Calculadora</a>
+          <a href="#ajudar">Como Ajudar</a>
+          <a href="#parceiros">Parceiros</a>
+          <a class="nav-admin" href="/" target="_blank" rel="noreferrer" title="Acesso dos coordenadores ao sistema de gestão">
+            <span class="admin-pulse"></span> Painel de Gestão <i>✦</i>
+          </a>
+          <a class="nav-cta" href="#ajudar">
+            Doe pelo PIX <span aria-hidden="true">⚡</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <!-- HERO SECTION COM O KV COMPLETO EM DESTAQUE -->
+      <section class="hero section-pad" aria-labelledby="hero-title">
+        <div class="hero-tech-lines" aria-hidden="true">
+          <svg viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M-100 450 C 300 420, 600 520, 900 380 C 1200 240, 1400 400, 1600 350" stroke="rgba(52, 211, 153, 0.15)" stroke-width="2" stroke-dasharray="6 6"/>
+            <path d="M-100 250 C 200 150, 700 300, 1100 180 C 1300 120, 1500 220, 1600 200" stroke="rgba(251, 191, 36, 0.12)" stroke-width="1.5"/>
+            <circle cx="900" cy="380" r="4" fill="#34d399" filter="drop-shadow(0 0 6px #34d399)"/>
+            <circle cx="600" cy="520" r="3" fill="#fbbf24" filter="drop-shadow(0 0 6px #fbbf24)"/>
+            <circle cx="1100" cy="180" r="3.5" fill="#38ef7d" filter="drop-shadow(0 0 6px #38ef7d)"/>
+          </svg>
+        </div>
+
+        <div class="shell hero-grid">
+          <div class="hero-content">
+            <h1 id="hero-title">
+              Conectando tecnologia,<br />
+              <span class="title-highlight">esperança</span> e solidariedade.
+            </h1>
+
+            <p class="hero-lead">
+              A comunidade de desenvolvedores, designers, fundadores e profissionais de TI de Manaus unidos para levar cestas básicas, brinquedos e dignidade a centenas de famílias neste Natal.
+            </p>
+
+            <div class="hero-actions">
+              <button class="button button-primary" type="button" data-open-modal="pix">
+                Doe agora via PIX <span class="btn-arrow" aria-hidden="true">⚡</span>
+              </button>
+              <button class="button button-ghost" type="button" data-open-modal="parceiro">
+                Seja uma empresa parceira <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- ADAPTAÇÃO DA ARTE DO KV COMPLETO -->
+          <div class="hero-showcase">
+            <div class="kv-card-container">
+              <div class="kv-backdrop-glow" aria-hidden="true"></div>
+              
+              <div class="kv-card" id="kvInteractiveCard" data-open-modal="arte-kv" style="cursor: pointer;" title="Clique para ver a arte oficial em alta resolução">
+                <div class="kv-card-border" aria-hidden="true"></div>
+                <div class="kv-media-wrapper">
+                  <img
+                    src="assets/kv-completo.jpg"
+                    alt="Arte Oficial da Campanha Natal Solidário em TI - Manaus 2026: Conectando tecnologia, esperança e solidariedade com voluntários, famílias e crianças celebrando o Natal"
+                    class="kv-img"
+                    id="kvMainImg"
+                    width="620"
+                    height="827"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-scroll-invite">
+          <a href="#comunidade" class="scroll-link" aria-label="Rolar para ver mais sobre a campanha">
+            <span class="scroll-icon"><span class="scroll-dot"></span></span>
+            <span>Descubra a história e participe</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- TICKER DE IMPACTO EM TEMPO REAL -->
+      <section class="impact-ticker" aria-label="Resumo do impacto da campanha">
+        <div class="ticker-track">
+          <div class="ticker-content">
+            <span class="ticker-item"><span class="pulse-mint"></span> <strong>300</strong> Famílias já Alcançadas</span>
+            <span class="ticker-sep">•</span>
+            <span class="ticker-item">🎁 <strong>200</strong> Brinquedos para Crianças</span>
+            <span class="ticker-sep">•</span>
+            <span class="ticker-item">💧 <strong>450</strong> Kits de Higiene Montados</span>
+            <span class="ticker-sep">•</span>
+            <span class="ticker-item">⚡ <strong>1 Rede</strong> do Ecossistema Tech de Manaus</span>
+            <span class="ticker-sep">•</span>
+            <span class="ticker-item">📍 Manaus & Comunidades Ribeirinhas</span>
+            <span class="ticker-sep">•</span>
+            <span class="ticker-item">✦ PIX indisponível: <code>Não configurado</code></span>
+            <span class="ticker-sep">•</span>
+          </div>
+          <!-- Duplicate for seamless loop -->
+          <div class="ticker-content" aria-hidden="true">
+            <span class="ticker-item"><span class="pulse-mint"></span> <strong>300</strong> Famílias já Alcançadas</span>
+            <span class="ticker-sep">•</span>
+            <span class="ticker-item">🎁 <strong>200</strong> Brinquedos para Crianças</span>
+            <span class="ticker-sep">•</span>
+            <span class="ticker-item">💧 <strong>450</strong> Kits de Higiene Montados</span>
+            <span class="ticker-sep">•</span>
+            <span class="ticker-item">⚡ <strong>1 Rede</strong> do Ecossistema Tech de Manaus</span>
+            <span class="ticker-sep">•</span>
+            <span class="ticker-item">📍 Manaus & Comunidades Ribeirinhas</span>
+            <span class="ticker-sep">•</span>
+            <span class="ticker-item">✦ PIX indisponível: <code>Não configurado</code></span>
+            <span class="ticker-sep">•</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEÇÃO A COMUNIDADE EM MOVIMENTO (ADAPTAÇÃO DA ARTE PESSOAS.JPG) -->
+      <section class="community-story section-pad" id="comunidade" aria-labelledby="story-title">
+        <div class="shell">
+          <div class="section-heading heading-centered reveal">
+            <h2 id="story-title">Mais que linhas de código,<br /><em>laços de esperança.</em></h2>
+            <p>
+              Em Manaus, o mesmo espírito inovador que constrói tecnologia se reúne para combater a desigualdade. Veja como nossa comunidade de TI transforma dedicação em dignidade real.
+            </p>
+          </div>
+
+          <div class="community-grid reveal">
+            <!-- Imagem Pessoas.jpg adaptada como card editorial -->
+            <div class="story-media-card">
+              <div class="story-frame">
+                <img
+                  src="assets/pessoas.jpg"
+                  alt="Voluntários da comunidade de tecnologia de Manaus entregando presentes e mantimentos para famílias e crianças no Natal Solidário em TI"
+                  class="story-img"
+                  loading="lazy"
+                  width="1280"
+                  height="720"
+                />
+                <div class="story-caption-overlay">
+                  <span class="story-tag">✦ Comunidade & Empatia</span>
+                  <h3>Tecnologia a serviço de quem mais precisa</h3>
+                  <p>Voluntários, desenvolvedores e famílias ribeirinhas reunidos em uma só celebração fraterna.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pilares de atuação da campanha -->
+            <div class="story-pillars">
+              <article class="pillar-box">
+                <div class="pillar-icon-wrap bg-amber-soft">
+                  <span class="pillar-emoji">📦</span>
+                </div>
+                <div class="pillar-text">
+                  <h3>Cestas Básicas Completas</h3>
+                  <p>Alimentos nutritivos e itens para uma ceia natalina farta e digna para mais de 400 famílias cadastradas.</p>
+                  <span class="pillar-meta">Meta: 400 famílias • 75% atingido</span>
+                </div>
+              </article>
+
+              <article class="pillar-box">
+                <div class="pillar-icon-wrap bg-coral-soft">
+                  <span class="pillar-emoji">🎁</span>
+                </div>
+                <div class="pillar-text">
+                  <h3>Brinquedos & Sorrisos</h3>
+                  <p>Presentes novos e jogos educativos entregues diretamente às crianças pelas mãos dos nossos voluntários.</p>
+                  <span class="pillar-meta">Meta: 500 crianças • 200 entregues</span>
+                </div>
+              </article>
+
+              <article class="pillar-box">
+                <div class="pillar-icon-wrap bg-mint-soft">
+                  <span class="pillar-emoji">💧</span>
+                </div>
+                <div class="pillar-text">
+                  <h3>Kits de Higiene e Cuidados</h3>
+                  <p>Itens fundamentais de higiene pessoal e saúde para garantir bem-estar e dignidade nas comunidades.</p>
+                  <span class="pillar-meta">Meta: 500 kits • 90% atingido</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TRANSPARÊNCIA E METAS EM TEMPO REAL -->
+      <section class="transparency section-pad" id="impacto" aria-labelledby="impact-title">
+        <div class="shell">
+          <div class="section-heading heading-split reveal">
+            <div>
+              <h2 id="impact-title">Cada número conta<br /><em>uma história real.</em></h2>
+            </div>
+            <p>
+              Acompanhe em tempo real o avanço da arrecadação. Nossa gestão é aberta, auditável e conectada diretamente ao Sistema de Gestão da Coordenação.
+            </p>
+          </div>
+
+          <div class="progress-layout">
+            <!-- Meta Principal: Cestas Básicas -->
+            <div class="progress-feature reveal">
+              <div class="feature-bg-circuit" aria-hidden="true"></div>
+              <div class="progress-feature-top">
+                <div class="feature-badge">
+                  <span class="progress-icon">📦</span>
+                  <span class="feature-label">Meta Principal 2026</span>
+                </div>
+                <span class="progress-tag">Alimentação Digna</span>
+              </div>
+
+              <div class="progress-feature-body">
+                <div>
+                  <span class="big-number">75<small>%</small></span>
+                  <span class="progress-caption">da meta alcançada</span>
+                </div>
+                <div class="progress-copy">
+                  <h3>Cestas Básicas Familiares</h3>
+                  <p>Garantem a ceia e os mantimentos de dezembro para lares em Manaus e proximidades.</p>
+                  <strong>300 <span>de 400 famílias atendidas</span></strong>
+                </div>
+              </div>
+
+              <div class="progress-track-wrapper">
+                <div class="progress-track progress-track-large" role="progressbar" aria-label="Cestas básicas: 75 por cento" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75">
+                  <span style="width: 75%"></span>
+                </div>
+              </div>
+
+              <div class="progress-foot">
+                <span>Iniciamos com um gesto voluntário.</span>
+                <span class="remaining-count">Faltam 100 famílias para a meta</span>
+              </div>
+            </div>
+
+            <!-- Metas Secundárias: Brinquedos e Higiene -->
+            <div class="progress-stack">
+              <article class="progress-card reveal">
+                <div class="progress-card-head">
+                  <span class="progress-icon progress-icon-small bg-coral-soft">🎁</span>
+                  <div>
+                    <h3>Brinquedos para Crianças</h3>
+                    <p>Presentes novos para iluminar a infância</p>
+                  </div>
+                  <strong class="color-coral">40<small>%</small></strong>
+                </div>
+                <div class="progress-track" role="progressbar" aria-label="Brinquedos: 40 por cento" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40">
+                  <span style="width: 40%" class="bg-coral"></span>
+                </div>
+                <div class="progress-card-foot">
+                  <span>200 de 500 crianças atendidas</span>
+                  <strong>+300 restantes</strong>
+                </div>
+              </article>
+
+              <article class="progress-card reveal">
+                <div class="progress-card-head">
+                  <span class="progress-icon progress-icon-small bg-mint-soft">💧</span>
+                  <div>
+                    <h3>Kits de Higiene Pessoal</h3>
+                    <p>Saúde, cuidado e dignidade essencial</p>
+                  </div>
+                  <strong class="color-mint">90<small>%</small></strong>
+                </div>
+                <div class="progress-track progress-track-mint" role="progressbar" aria-label="Kits de higiene: 90 por cento" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">
+                  <span style="width: 90%" class="bg-mint"></span>
+                </div>
+                <div class="progress-card-foot">
+                  <span>450 de 500 kits montados</span>
+                  <strong>Quase lá! Faltam 50</strong>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="updated-note">
+            <span class="live-dot"></span> 
+            Dados sincronizados em tempo real com o Sistema da Coordenação 
+            <span class="updated-divider"></span> 
+            <a href="/" target="_blank" rel="noreferrer" class="link-audit">Ver Painel de Auditoria ↗</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CALCULADORA DE IMPACTO SOLIDÁRIO -->
+      <section class="calculator-section section-pad" id="calculadora" aria-labelledby="calc-title">
+        <div class="shell">
+          <div class="calculator-card reveal">
+            <div class="calc-header">
+              <h2 id="calc-title">Veja o que sua contribuição<br /><em>faz acontecer.</em></h2>
+              <p>Escolha um valor para simular a transformação imediata que você gera em Manaus.</p>
+            </div>
+
+            <div class="calc-presets" role="radiogroup" aria-label="Selecione o valor para simulação">
+              <button type="button" class="preset-btn" data-preset="30" role="radio" aria-checked="false">R$ 30</button>
+              <button type="button" class="preset-btn active" data-preset="50" role="radio" aria-checked="true">R$ 50</button>
+              <button type="button" class="preset-btn" data-preset="100" role="radio" aria-checked="false">R$ 100</button>
+              <button type="button" class="preset-btn" data-preset="250" role="radio" aria-checked="false">R$ 250</button>
+              <button type="button" class="preset-btn" data-preset="500" role="radio" aria-checked="false">R$ 500</button>
+            </div>
+
+            <div class="calc-result-box" id="calcResultDisplay">
+              <div class="result-badge"><span class="badge-pulse"></span> Transformação Direta</div>
+              <h3 id="calcResultTitle">1 Camisa Oficial OU 1 Ceia + Brinquedo</h3>
+              <p id="calcResultDesc">
+                Com R$ 50,00 você garante um brinquedo novo para uma criança e apoia a alimentação e logística dos voluntários em campo. Ou vista a causa adquirindo a camisa oficial!
+              </p>
+              
+              <div class="calc-actions">
+                <button class="button button-primary" type="button" id="calcDonateBtn" data-open-modal="pix">
+                  Doar este valor via PIX <span aria-hidden="true">⚡</span>
+                </button>
+                <div class="calc-pix-info">
+                  <span>PIX real:</span>
+                  <code>Não configurado</code>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FORMAS DE CONTRIBUIÇÃO (3 PILARES) -->
+      <section class="help section-pad" id="ajudar" aria-labelledby="help-title">
+        <div class="shell">
+          <div class="section-heading heading-centered reveal">
+            <h2 id="help-title">A tecnologia conecta.<br /><em>Você transforma.</em></h2>
+            <p>
+              Toda doação gera impacto direto. Escolha a forma que melhor se adapta à sua vontade de transformar vidas neste Natal.
+            </p>
+          </div>
+
+          <div class="help-grid">
+            <!-- 01 PIX -->
+            <article class="help-card help-card-featured reveal">
+              <div class="card-glow-bg" aria-hidden="true"></div>
+              <div class="card-number">01</div>
+              <div class="help-illustration pix-illustration" aria-hidden="true">
+                <span class="illum-icon">⚡</span>
+                <i>PIX</i>
+              </div>
+              <div class="help-card-content">
+                <span class="card-kicker">Rápido e 100% Auditável</span>
+                <h3>Doe via PIX</h3>
+                <p>Qualquer valor ajuda na aquisição de alimentos, brinquedos e nos custos logísticos de distribuição.</p>
+                <button class="button button-primary card-action-btn" type="button" data-open-modal="pix">
+                  Ver chave e QR Code <span aria-hidden="true">↗</span>
+                </button>
+              </div>
+            </article>
+
+            <!-- 02 CAMISA -->
+            <article class="help-card reveal">
+              <div class="card-number">02</div>
+              <div class="help-illustration shirt-illustration" aria-hidden="true">
+                <span>✦</span>
+              </div>
+              <div class="help-card-content">
+                <span class="card-kicker">Vista a Causa (R$ 50)</span>
+                <h3>Compre a Camisa</h3>
+                <p>Todo o lucro da camisa oficial financia a alimentação das famílias e o suporte logístico dos voluntários.</p>
+                <button class="text-link" type="button" data-open-modal="camisa">
+                  Garantir minha camisa <span aria-hidden="true">↗</span>
+                </button>
+              </div>
+            </article>
+
+            <!-- 03 PONTOS DE COLETA -->
+            <article class="help-card reveal">
+              <div class="card-number">03</div>
+              <div class="help-illustration pin-illustration" aria-hidden="true">
+                <span>⌖</span>
+              </div>
+              <div class="help-card-content">
+                <span class="card-kicker">Doação Física em Manaus</span>
+                <h3>Pontos de Coleta</h3>
+                <p>Entregue alimentos não perecíveis, brinquedos novos ou kits de higiene nos hubs parceiros da cidade.</p>
+                <button class="text-link" type="button" data-open-modal="coleta">
+                  Ver endereços e horários <span aria-hidden="true">↗</span>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEÇÃO DE PARCERIAS E STARTUPS -->
+      <section class="partners section-pad" id="parceiros" aria-labelledby="partners-title">
+        <div class="shell partners-layout">
+          <div class="partners-copy reveal">
+            <h2 id="partners-title">Quando o ecossistema<br /><em>se conecta.</em></h2>
+            <p>
+              Empresas de tecnologia, hubs de inovação e startups de Manaus unidos por um propósito coletivo. Sua empresa também pode fazer parte dessa corrente do bem.
+            </p>
+            <div class="partners-cta-row">
+              <button class="button button-primary" type="button" data-open-modal="parceiro">
+                Quero ser uma empresa parceira <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="partner-logos reveal" aria-label="Logos de parceiros e apoiadores da campanha">
+            <!-- 01 MANAÓS -->
+            <div class="partner-logo partner-logo-card" title="MANAÓS - Instituto de Pesquisa e Desenvolvimento">
+              <div class="partner-card-media">
+                <img 
+                  src="assets/LOGO MANAOS 1.png" 
+                  alt="MANAÓS - Instituto de Pesquisa e Desenvolvimento" 
+                  class="partner-logo-img"
+                  width="205"
+                  height="70"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <!-- 02 WOMSOFT -->
+            <div class="partner-logo partner-logo-card" title="Womsoft - Tecnologia e Inovação">
+              <div class="partner-card-media">
+                <img 
+                  src="assets/LOGO WOMSOFT menor.png" 
+                  alt="Womsoft - Tecnologia e Inovação" 
+                  class="partner-logo-img partner-logo-womsoft"
+                  width="178"
+                  height="70"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <!-- 03 POLOTECH -->
+            <div class="partner-logo">
+              <span class="logo-symbol">◌</span>
+              <span>Polo<span>Tech</span> Manaus</span>
+            </div>
+
+            <!-- 04 NORTE STACK -->
+            <div class="partner-logo">
+              <span class="logo-symbol">⚡</span>
+              <span>Norte<br />Stack</span>
+            </div>
+
+            <!-- 05 SUA MARCA AQUI -->
+            <div class="partner-logo partner-placeholder" role="button" tabindex="0" data-open-modal="parceiro" title="Clique para ser uma empresa parceira">
+              <span class="add-icon">+</span>
+              <small>Sua marca<br />aqui</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BANNER COM A ARTE DO KV NATAL (HORIZONTAL) -->
+      <section class="kv-banner-section" aria-label="Destaque da identidade visual oficial">
+        <div class="shell">
+          <div class="kv-banner-card reveal">
+            <img 
+              src="assets/kv-natal.jpg" 
+              alt="Natal Solidário em TI: Conectando tecnologia, esperança e solidariedade - Banner Oficial" 
+              class="kv-banner-img"
+              loading="lazy"
+              width="1440"
+              height="810"
+            />
+            <div class="kv-banner-content">
+              <span class="banner-pill">✦ Campanha Oficial 2026</span>
+              <h3>Conectando tecnologia, esperança e solidariedade.</h3>
+              <p>Juntos, podemos iluminar o Natal de quem mais precisa em Manaus.</p>
+              <div class="banner-buttons">
+                <button class="button button-primary" type="button" data-open-modal="pix">
+                  Contribuir agora com PIX <span aria-hidden="true">⚡</span>
+                </button>
+                <button class="button button-ghost" type="button" data-open-modal="arte-kv">
+                  Ver Cartaz Completo <span>🖼️</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FECHAMENTO / CHAMADA FINAL -->
+      <section class="closing-cta" aria-labelledby="cta-title">
+        <div class="shell closing-inner reveal">
+          <div class="cta-decoration" aria-hidden="true">✦</div>
+          <div>
+            <h2 id="cta-title">Vamos fazer esse<br /><em>Natal acontecer?</em></h2>
+          </div>
+          <div class="closing-action">
+            <p>Uma comunidade inteira está esperando pelo seu gesto de amor e solidariedade.</p>
+            <div class="closing-btn-group">
+              <button class="button button-primary-dark" type="button" data-open-modal="pix">
+                Fazer minha doação agora <span aria-hidden="true">⚡</span>
+              </button>
+              <button class="button button-outline-dark" type="button" data-open-modal="camisa">
+                Comprar Camisa (R$ 50) <span aria-hidden="true">👕</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- RODAPÉ COMPLETO -->
+    <footer class="site-footer">
+      <div class="shell footer-top">
+        <div class="footer-brand-col">
+          <a class="footer-brand-link" href="#inicio" aria-label="Natal Solidário em TI, voltar ao início">
+            <img 
+              src="assets/Natal Solidário em TI2.png" 
+              alt="Natal Solidário em TI: Conectando tecnologia, esperança e solidariedade" 
+              class="footer-campaign-logo"
+              width="260"
+              height="170"
+            />
+          </a>
+          <p class="footer-subtext">
+            Mobilização da comunidade de tecnologia de Manaus transformando o Natal de famílias em situação de vulnerabilidade.
+          </p>
+          <div class="footer-realizacao-tag">
+            <span class="tag-star">✦</span> Projeto realizado pelo <strong>Amigos do Sistema</strong>
+          </div>
+        </div>
+
+        <div class="footer-realizacao-col">
+          <h4>Realização</h4>
+          <div class="footer-realizacao-card" title="Amigos do Sistema">
+            <img 
+              src="assets/LOGO AMIGOS DO SISTEMA.png" 
+              alt="Logo Amigos do Sistema" 
+              class="footer-realizacao-logo"
+              width="210"
+              height="65"
+              loading="lazy"
+            />
+          </div>
+          <p class="footer-realizacao-text">
+            O <strong>Natal Solidário em TI</strong> é um projeto realizado pelo <strong>Amigos do Sistema</strong>, unindo tecnologia e solidariedade para levar esperança a centenas de famílias em Manaus.
+          </p>
+        </div>
+
+        <div class="footer-info-col">
+          <h4>Navegação</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#comunidade">A Mobilização</a></li>
+            <li><a href="#impacto">Prestação de Contas</a></li>
+            <li><a href="#calculadora">Calculadora de Impacto</a></li>
+            <li><a href="#ajudar">Como Contribuir</a></li>
+            <li><a href="#parceiros">Parceiros</a></li>
+            <li><a href="/" target="_blank" rel="noreferrer">Painel de Gestão ↗</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Contato & Redes</h4>
+          <div class="footer-links">
+            <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram <span>↗</span></a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+            <a href="mailto:coordenacao@natalti.org">E-mail da Coordenação <span>↗</span></a>
+            <button class="link-btn-art" type="button" data-open-modal="arte-kv">Baixar Cartaz Oficial <span>↓</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="shell footer-bottom">
+        <span>© <span data-current-year>2026</span> Natal Solidário em TI • Projeto realizado pelo <strong>Amigos do Sistema</strong>.</span>
+        <span>Desenvolvido com carinho e propósito social pela comunidade tech — Manaus, AM.</span>
+      </div>
+    </footer>
+
+    <!-- MODAL PRINCIPAL -->
+    <div class="modal-backdrop" data-modal-backdrop hidden>
+      <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+        <button class="modal-close" type="button" data-close-modal aria-label="Fechar janela modal">×</button>
+        <div class="modal-icon" data-modal-icon aria-hidden="true">✦</div>
+        <div class="modal-content" data-modal-content></div>
+      </section>
+    </div>
+
+    <!-- TOAST NOTIFICATION -->
+    <div class="toast" role="status" aria-live="polite" hidden></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
